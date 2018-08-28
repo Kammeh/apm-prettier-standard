@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle prettier-standard",
+        "command": "prettier-standard:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "prettier-standard",
+          "submenu": [
+            {
+              "label": "Format",
+              "command": "prettier-standard:format"
+            },
+            {
+              "label": "Toggle",
+              "command": "prettier-standard:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
